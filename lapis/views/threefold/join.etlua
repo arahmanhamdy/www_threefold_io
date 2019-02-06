@@ -1,0 +1,277 @@
+<div class="layout-content" style="background-color:#f2f6ff;padding-bottom: 30px;">
+    <div class="layout-content">
+        <div class="layout-container">
+
+
+            <h1 class="mb-2h mt-4">{{{ threefold.join.explore_more }}}</h1>
+            <div class="row">
+                <!-- threefold-Radar -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.radar_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="{{{  threefold.join.radar_img }}}" class="attachment-full size-full"
+                                alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.radar_header }}}</h4>
+                        <div class="no-link">
+                            <p>{{{ threefold.join.radar_text }}}</p>
+                        </div>
+                        <!-- <span class="more-link">Join Us</span> -->
+                    </a>
+                </div>
+
+                <!-- capacity_overview -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.capacity_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="{{{  threefold.join.capacity_img }}}" class="attachment-full size-full"
+                                alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.capacity_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.capacity_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Join Us</span> -->
+                    </a>
+                </div>
+                <!-- How to contribute -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.contribute_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="{{{  threefold.join.contribute_img }}}" class="attachment-full size-full"
+                                alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.contribute_header }}}</h4>
+                        <div class="no-link">
+                            <p>{{{ threefold.join.contribute_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+
+                <!-- info_foundation -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.foundation_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="{{{  threefold.join.foundation_img }}}" class="attachment-full size-full"
+                                alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.foundation_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.foundation_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+
+                <!-- info_grid -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.grid_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="{{{  threefold.join.grid_img }}}" class="attachment-full size-full"
+                                alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.grid_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.grid_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+
+                <!-- tf_tokens -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.token_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="{{{  threefold.join.token_img }}}" class="attachment-full size-full"
+                                alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.token_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.token_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+                <p>{{{ threefold.join.joinus_text }}}
+                    <a href="{{{  threefold.join.joinus_link }}}" target="_top">{{{
+                        threefold.join.joinus_link_name }}}</a>
+                </p>
+            </div>
+            <h1 class="mb-2h mt-4">{{{ threefold.join.social_media_header }}}</h1>
+            <div class="row">
+                <!-- facebook -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.facebook_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="/static/threefold/svg/ic-facebook.svg" class="attachment-full size-full" alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.facebook_header }}}</h4>
+                        <div class="no-link">
+                            <p>{{{ threefold.join.facebook_text }}}</p>
+                        </div>
+                        <!-- <span class="more-link">Join Us</span> -->
+                    </a>
+                </div>
+
+                <!-- youtube -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.youtube_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="/static/threefold/svg/ic-youtube.svg" class="attachment-full size-full" alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.youtube_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.youtube_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Join Us</span> -->
+                    </a>
+                </div>
+                <!-- linkedin -->
+                <!-- <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.linkedin_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                      <div class="icon">
+                                  <img src="/static/threefold/ic-linkedin.svg" class="attachment-full size-full" alt="">
+                              </div>
+                        <h4 class="mt-0 mb-0h">{{{  threefold.join.linkedin_header }}}</h4>
+                        <div class="no-link">
+                            <p>{{{  threefold.join.linkedin_text }}}</p>
+                        </div>
+                    </a>
+                </div> -->
+
+                <!-- instagram -->
+                <!-- <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.instagram_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                      <div class="icon">
+                                  <img src="/static/threefold/svg/ic-insagram_smallt.svg" class="attachment-full size-full" alt="">
+                              </div>
+                        <h4 class="mt-0 mb-0h">{{{  threefold.join.instagram_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{  threefold.join.instagram_text }}}</p>
+                        </div>
+                    </a>
+                </div> -->
+
+                <!-- telegram -->
+                <!-- <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.telegram_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                      <div class="icon">
+                                  <img src="/static/threefold/svg/ic-telegram.svg" class="attachment-full size-full" alt="">
+                              </div>
+                        <h4 class="mt-0 mb-0h">{{{  threefold.join.telegram_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{  threefold.join.telegram_text }}}</p>
+                        </div>
+                    </a>
+                </div> -->
+
+                <!-- Threefold_app -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.tfapp_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="/static/threefold/svg/tf_app.svg" class="attachment-full size-full" alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.tfapp_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.tfapp_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+                <!-- medium -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.medium_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="/static/threefold/svg/medium-small.svg" class="attachment-full size-full" alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.medium_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.medium_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+                <!-- telegram2 -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.telegram2_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="/static/threefold/svg/ic-telegram.svg" class="attachment-full size-full" alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.telegram2_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.telegram2_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+
+                <!-- reddit -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.reddit_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="/static/threefold/svg/reddit-brands_new.svg" class="attachment-full size-full" alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.reddit_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.reddit_text }}}</p>
+                        </div>
+
+                        <!-- <span class="more-link">Learn More</span> -->
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- <div class="newsletter_button">
+              <a href=" https://threefoldtoken.us17.list-manage.com/subscribe?u=0f8069cf559edca76eb45006b&id=6f65777523" class="btn btn-block btn-md-inline">ThreeFold Newsletter</a>
+              <br>
+              <br>
+              <p>Stay up to date with ThreeFold through our weekly newsletter.</p>
+          </div> -->
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4"></div>
+
+                <!-- newsletter -->
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <a href="{{{  threefold.join.tfnewsletter_link }}}" target="_blank" class="block-white block-outline block-icon block-more join">
+                        <div class="icon">
+                            <img src="/static/threefold/svg/newsletter.svg" class="attachment-full size-full" alt="">
+                        </div>
+                        <h4 class="mt-0 mb-0h">{{{ threefold.join.tfnewsletter_header }}}</h4>
+
+                        <div class="no-link">
+                            <p>{{{ threefold.join.tfnewsletter_text }}}</p>
+                        </div>
+                        <!-- <span class="more-link">Join Us</span> -->
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4"></div>
+            </div>
+
+
+
+        </div>
+    </div>
+</div>

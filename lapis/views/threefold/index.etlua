@@ -1,0 +1,43 @@
+<div class="layout-content pt-9">
+  <div class="layout-intro">
+    <div class="layout-container">
+      <div class="row align-items-lg-end">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+          <h1 class="mt-0">{{{ threefold.[home.intro].header }}}</h1>
+          <div class="lead intro-lead">{{{ threefold.[home.intro].content }}}</div>
+          <div class="mt-3h">
+            <a data-toggle="modal" href="/#modal-intro-movie" class="btn btn-block btn-sm-inline btn-white">
+              <div class="d-flex justify-content-center">
+                <img src="{{{ threefold.[home.intro].videoBtn_ico}}}" class="mr-1" alt="">
+                <span>{{{ threefold.[home.intro].videoBtn_TxT }}}</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="intro-scrollhint-container">
+      <div class="layout-container">
+        <div class="intro-scrollhint text-white">
+          <strong>{{{ threefold.[home.intro].scroll }}}</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="layout-content pt-10">
+  <div class="layout-container">
+    <div class="layout-inner-content">
+      <h1 class="text-blue h1 mb-3">{{{ threefold.[home.vision].header }}}</h1>
+      <div class="page-description mb-3">
+        <p>{{{ threefold.[home.intro].content }}}</p>
+      </div>
+    </div>
+    <div class="layout-inner-content">
+      <h1 class="text-blue h1 mb-3">{{{ threefold.[home.why].header }}}</h1>
+      <div class="page-description mb-3">
+        <p>{{{ threefold.[home.why].content }}}</p>
+      </div>
+    </div>
+  </div>
+</div>

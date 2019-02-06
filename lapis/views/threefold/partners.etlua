@@ -1,0 +1,329 @@
+<div class="layout-content">
+    <div class="layout-container">
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{{ threefold.[partners.partnervision].header }}}</h1>
+                <div class="page-description mb-3">{{{ threefold.[partners.partnervision].content }}}</div>
+            </div>
+        </div>
+        <div class="my-6 mt-sm-10">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue mt-0">{{{ threefold.[partners.corporatefarmers].mainHeader }}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">{{{ threefold.[partners.corporatefarmers].content }}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].hp_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].hp_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].hp_header }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].hp_content }}}</p>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].value_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].value_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].value_header }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].value_content }}}</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].reliable_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].reliable_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].reliable_header }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].reliable_content }}}</p>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].good_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].good_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].good_header }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].good_content }}}</p>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].future_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].future_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].future_header }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].future_content }}}</p>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].gigEu_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].gigEu_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].gigEu_header }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].gigEu_content }}}</p>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].header }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].content }}}</p>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.corporatefarmers].img_7 }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.corporatefarmers].header_7 }}}">
+                            <h6 class="alt">{{{ threefold.[partners.corporatefarmers].header_7 }}}</h6>
+                            <p>{{{ threefold.[partners.corporatefarmers].content_7 }}}</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <!-- hosters sec -->
+            <div class="hosters">
+                <div class="row">
+                    <div class="col-sm-12 col-md-4">
+                        <h2 class="text-blue h2">{{{ threefold.[partners.individualfarmers].header }}}</h2>
+                        <p>{{{ threefold.[partners.individualfarmers].content }}}</p>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <div id="hosters"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="row">
+    <div class="col-sm-4" style="padding-bottom: 50px">
+        <h2 style="font-family: 'Barlow Condensed', sans-serif;">check the last update of the community meeting</h2>
+        <a data-toggle="modal" href="#modal-intro-movie" class="btn btn-block btn-md-inline">
+            <div class="d-flex justify-content-center">
+                <img src="/static/threefold/ic-btn-playvideo.svg" class="mr-1" alt="">
+<span>{{{ threefold.[partners.individualfarmers].community_button_name }}}</span>
+            </div>
+        </a>
+    </div>
+    <div id="modal-intro-movie" class="modal modal-lightbox fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="video-wrapper">
+<iframe width="940" height="529" src="{{{ threefold.[partners.individualfarmers].community_video_link }}}"
+    frameborder="0" allow="autoplay; encrypted-media"
+                            allowfullscreen=""></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+        </div>
+        <div class="team">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue mt-0">{{{ threefold.[partners.farmingcooperatives].mainHeader }}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">{{{ threefold.[partners.farmingcooperatives].content
+                            }}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.farmingcooperatives].farm1_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.farmingcooperatives].value_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.farmingcooperatives].farm1_description }}}</h6>
+                            <a href="{{{ threefold.[partners.farmingcooperatives].farm1_link }}}">{{{
+                                threefold.[partners.farmingcooperatives].farm1_link_text }}}</a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.farmingcooperatives].farm2_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.farmingcooperatives].value_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.farmingcooperatives].farm2_description }}}</h6>
+                            <a href="{{{ threefold.[partners.farmingcooperatives].farm2_link }}}">{{{
+                                threefold.[partners.farmingcooperatives].farm2_link_text }}}</a>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3 text-md-left text-center">
+                            <img src="{{{ threefold.[partners.farmingcooperatives].farm3_img }}}" class="attachment-full size-full"
+                                alt="{{{ threefold.[partners.farmingcooperatives].value_header }}}">
+                            <h6 class="alt">{{{ threefold.[partners.farmingcooperatives].farm3_description }}}</h6>
+                            <a href="{{{ threefold.[partners.farmingcooperatives].farm3_link }}}">{{{
+                                threefold.[partners.farmingcooperatives].farm3_link_text }}}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="my-6 mt-sm-10">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue h2 mt-0">{{{ threefold.[partners.softwarepartners].header }}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">{{{ threefold.[partners.softwarepartners].content }}}</div>
+                    </div>
+                    <div class="softPart">
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-3 col-xl-2 offset-xl-1 my-1 my-md-2 my-xl-3">
+                                <img src="{{{ threefold.[partners.softwarepartners].ios_img }}}" class="attachment-full size-full"
+                                    alt="{{{ threefold.[partners.softwarepartners].ios_header }}}" height="38">
+                                <!-- <div class="col-12">
+                        <h4 class="alt text-blue mt-2 mb-1h">{{{ threefold.[partners.softwarepartners].ios_header }}}</h4>
+                        <div class="mb-2">
+                            <p>{{{ threefold.[partners.softwarepartners].ios_content }}}</p>
+                        </div> -->
+                                <!-- <p class="mb-2">
+                            <a href="{{{ threefold.[partners.softwarepartners].ios_wiki }}}" class="btn btn-block btn-sm-inline btn-green">Wiki How To</a>
+                            <a href="{{{ threefold.[partners.softwarepartners].ios_download }}}" class="btn btn-block btn-sm-inline" target="_blank">Download</a>
+                        </p> -->
+                                <!-- </div> -->
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 col-xl-2 my-1 my-md-2 my-xl-3">
+                                <div class="col-6">
+                                    <img src="{{{ threefold.[partners.softwarepartners].android_img }}}" class="attachment-full size-full"
+                                        alt="{{{ threefold.[partners.softwarepartners].android_header }}}"
+                                        height="38">
+                                </div>
+                                <!-- <div class="col-12">
+                        <h4 class="alt text-blue mt-2 mb-1h">{{{ threefold.[partners.softwarepartners].android_header }}}</h4>
+                        <div class="mb-2">
+                            <p>{{{ threefold.[partners.softwarepartners].android_content }}}</p>
+                        </div> -->
+                                <!-- <p class="mb-2">
+                            <a href="{{{ threefold.[partners.softwarepartners].android_wiki }}}" class="btn btn-block btn-sm-inline btn-green">Wiki How To</a>
+                            <a href="{{{ threefold.[partners.softwarepartners].android_download }}}" class="btn btn-block btn-sm-inline" target="_blank">Download</a>
+                        </p> -->
+                                <!-- </div> -->
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 col-xl-2 my-1 my-md-2 my-xl-3">
+                                <div class="col-6">
+                                    <img src="{{{ threefold.[partners.softwarepartners].tf_chain_img }}}" class="attachment-full size-full"
+                                        alt="{{{ threefold.[partners.softwarepartners].tf_chain_header }}}"
+                                        height="38">
+                                </div>
+                                <!-- <div class="col-12">
+                        <h4 class="alt text-blue mt-2 mb-1h">{{{ threefold.[partners.softwarepartners].tf_chain_header }}}</h4>
+                        <div class="mb-2">
+                            <p>{{{ threefold.[partners.softwarepartners].tf_chain_content }}}</p>
+
+                        </div> -->
+                                <!-- <p class="mb-2">
+                            <a href="{{{ threefold.[partners.softwarepartners].tf_chain_wiki }}}" class="btn btn-block btn-sm-inline btn-green">Wiki How To</a>
+                            <a href="{{{ threefold.[partners.softwarepartners].tf_chain_download }}}" class="btn btn-block btn-sm-inline" target="_blank">Download</a>
+                        </p> -->
+                                <!-- <p class="small muted mb-2">
+                            {{{ threefold.[partners.softwarepartners].tf_chain_subtext }}}
+                        </p>
+                    </div> -->
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-3 col-xl-2 my-1 my-md-2 my-xl-3">
+                                <div class="col-6">
+                                    <img src="{{{ threefold.[partners.softwarepartners].new_img }}}" class="attachment-full size-full"
+                                        alt="{{{ threefold.[partners.softwarepartners].new_header }}}" height="38">
+                                </div>
+                                <!-- <div class="col-12">
+                        <h4 class="alt text-blue mt-2 mb-1h">{{{ threefold.[partners.softwarepartners].new_header }}}</h4>
+                        <div class="mb-2">
+                            <p>{{{ threefold.[partners.softwarepartners].new_content }}}</p>
+
+                        </div> -->
+                                <!-- <p class="mb-2">
+                            <a href="{{{ threefold.[partners.softwarepartners].tf_chain_wiki }}}" class="btn btn-block btn-sm-inline btn-green">Wiki How To</a>
+                            <a href="{{{ threefold.[partners.softwarepartners].tf_chain_download }}}" class="btn btn-block btn-sm-inline" target="_blank">Download</a>
+                        </p> -->
+                                <!-- <p class="small muted mb-2">
+                            {{{ threefold.[partners.softwarepartners].new_subtext }}}
+                        </p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="my-6 mt-sm-10">
+            <div id="section-get-tokens" class="layout-section">
+                <div class="layout-container">
+                    <h1 class="text-blue h1 mt-0">{{{ threefold.[partners.listings].header }}}</h1>
+                    <div class="layout-inner-content">
+                        <div class="page-description mb-3">{{{ threefold.[partners.listings].content }}}</div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-xl-11 offset-xl-1">
+                            <div class="row">
+                                <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                    <div class="block-white block-outline block-fullheight">
+                                        <a href="{{{ threefold.[partners.listings].btc_link }}}" target="_blank">
+                                            <h4 class="alt text-blue mt-0 mb-0h">{{{
+                                                threefold.[partners.listings].btc_header }}}</h4>
+                                        </a>
+                                        <p class="mb-0 no-link">{{{ threefold.[partners.listings].btc_txt }}}</p>
+                                        <a href="{{{ threefold.[partners.listings].btc_manual }}}">Read Manual</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                    <div class="block-white block-outline block-fullheight">
+                                        <a href="{{{ threefold.[partners.listings].bitmeex_link }}}" target="_blank">
+                                            <h4 class="alt text-blue mt-0 mb-0h">{{{
+                                                threefold.[partners.listings].bitmeex_header }}}</h4>
+                                        </a>
+                                        <p class="mb-0 no-link">{{{ threefold.[partners.listings].bitmeex_txt
+                                            }}}</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-lg-4 my-1">
+                                    <div class="block-aqua block-fullheight">
+                                        <h4 class="alt muted mt-0 mb-0h">{{{
+                                            threefold.[partners.listings].TFexchange_header }}}</h4>
+                                        <p class="mb-0 text-transform-upper">{{{
+                                            threefold.[partners.listings].TFexchange_txt }}}</p>
+                                    </div>
+                                </div>
+                                <p class="m-auto">
+                                    <a href="{{{ threefold.[partners.listings].link }}}" class="btn btn-block btn-sm-inline mt-5 btn-green"
+                                        style="padding: 8px 115px;">{{{
+                                        threefold.[partners.listings].txt }}}</a>
+                                </p>
+                            </div>
+
+                            <!-- <h3 class="mt-3 mt-md-5">{{{ threefold.[partners.listings].atomic_header }}}</h3>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 my-1">
+                        <div class="block-white block-outline block-fullheight">
+                            <a href="{{{ threefold.[partners.listings].atomic_link }}}" target="_blank">
+                                <h4 class="alt text-blue mt-0 mb-0h">{{{ threefold.[partners.listings].atomic_txt }}}</h4>
+                            </a>
+                            <p class="mb-0 no-link"></p>
+                            <a href="{{{ threefold.[partners.listings].atomic_manual }}}">Read Manual</a>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 my-1">
+                        <div class="block-aqua block-fullheight">
+                            <h4 class="alt muted mt-0 mb-0h">{{{ threefold.[partners.listings].wallet }}}</h4>
+                            <p class="mb-0 text-transform-upper">{{{ threefold.[partners.listings].wallet_txt }}}</p>
+                        </div>
+                    </div>
+                </div> -->
+                            <!-- <h3 class="mt-3 mt-md-5">{{{ threefold.[partners.listings].cooperatives }}}</h3>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 my-1">
+                        <a href="{{{ threefold.[partners.listings].mazraa_link }}}" target="_blank" class="block-white block-outline block-fullheight">
+                            <h4 class="alt text-blue mt-0 mb-0h">{{{ threefold.[partners.listings].mazraa_header }}}</h4>
+                            <p class="mb-0h no-link">{{{ threefold.[partners.listings].mazraa_address }}}</p>
+                            <p class="mb-0">
+                                <span class="link-target">{{{ threefold.[partners.listings].mazraa_link_txt }}}</span>
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 my-1">
+                        <a href="{{{ threefold.[partners.listings].bt_link }}}" target="_blank" class="block-white block-outline block-fullheight">
+                            <h4 class="alt text-blue mt-0 mb-0h">{{{ threefold.[partners.listings].bt_header }}}</h4>
+                            <p class="mb-0h no-link">{{{ threefold.[partners.listings].bt_address }}}</p>
+                            <p class="mb-0">
+                                <span class="link-target">{{{ threefold.[partners.listings].bt_link_txt }}}</span>
+                            </p>
+                        </a>
+                    </div>
+                </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

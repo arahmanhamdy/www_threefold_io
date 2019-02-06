@@ -1,0 +1,394 @@
+<div class="layout-content">
+    <div class="intro-screen">
+        <div class="index-content-viewport">
+            <div class="intro-main-content">
+                <div class="row w-row">
+                    <div class="w-col w-col-6 w-col-stack">
+                        <h1 class="c-white">{{{ threefold.[grid.header].header }}}</h1>
+                        <p class="intro-p inner-padding-inner">{{{ threefold.[grid.header].description }}}</p>
+                    </div>
+                    <div class="column w-col w-col-6 w-col-stack">
+                <a href="{{{ threefold.[grid.header].videoBtn }}}" class="btn btn-white w-inline-block w-lightbox">
+              <p class="b-link-intro">{{{ threefold.[grid.header].videoBtn_TxT }}}</p>
+              <script type="application/json" class="w-json">
+                {
+                  "items": [{
+                    "type": "video",
+                    "originalUrl": "https://www.youtube.com/watch?v=fucXM2L2cTA",
+                    "url": "https://www.youtube.com/watch?v=fucXM2L2cTA",
+                    "html": "<iframe class=\"embedly-embed\" src=\"//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FfucXM2L2cTA%3Ffeature%3Doembed&url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfucXM2L2cTA&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FfucXM2L2cTA%2Fhqdefault.jpg&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=youtube\" width=\"940\" height=\"528\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>",
+                    "thumbnailUrl": "https://i.ytimg.com/vi/fucXM2L2cTA/hqdefault.jpg",
+                    "width": 940,
+                    "height": 528
+                  }]
+                }
+              </script>
+            </a>
+                <a href="{{{ threefold.[grid.header].video_url }}}" data-toggle="modal" class="btn btn-block btn-sm-inline btn-white">{{{ threefold.[grid.header].video_txt }}}</a>
+            </div>
+                </div>
+            </div>
+            <div class="scroll-more w-hidden-tiny">
+                <p class="scroll-more-text">{{{ threefold.[grid.header].scroll }}}</p>
+                <div class="scroll-more-line"></div>
+            </div>
+        </div>
+
+    </div>
+    <div class="layout-container">
+
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{{ threefold.[grid.grid_aspects].header }}}</h1>
+                <p>{{{ threefold.[grid.grid_aspects].sub_header }}}</p>
+                <div class="page-description">{{{ threefold.[grid.grid_aspects].content }}}</div>
+                <a href="{{{ threefold.[grid.grid_aspects].btn_link }}}" class="btn btn-block btn-sm-inline btn-green"
+                    target="_blank">{{{
+                    threefold.[grid.grid_aspects].btn_txt
+                    }}}</a>
+                <a data-toggle="modal" href="#modal-grid-movie" class="btn btn-block btn-sm-inline btn-blue">{{{
+                    threefold.[grid.grid_aspects].btn_txt_video }}}</a>
+            </div>
+        </div>
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{{ threefold.[grid.whats_internet].header }}}</h1>
+                <p>{{{ threefold.[grid.whats_internet].sub_header }}}</p>
+                <div class="page-description">{{{ threefold.[grid.whats_internet].content }}}</div>
+                <a href="{{{ threefold.[grid.whats_internet].btn_link }}}" class="btn btn-block btn-sm-inline btn-green"
+                    target="_blank">{{{
+                    threefold.[grid.whats_internet].btn_txt
+                    }}}</a>
+                <a data-toggle="modal" href="#modal-grid-movie" class="btn btn-block btn-sm-inline btn-blue">{{{
+                    threefold.[grid.whats_internet].btn_txt_video }}}</a>
+            </div>
+        </div>
+        <div class="how-to-section">
+            <div class="layout-section">
+                <div class="layout-container">
+                    <h2 class="text-blue h2 mt-0">{{{ threefold.[grid.use_cases].mainHeader }}}</h2>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="{{{ threefold.[grid.use_cases].value_img }}}" class="attachment-full size-full"
+                                        alt="{{{ threefold.[grid.use_cases].value_header }}}">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{{ threefold.[grid.use_cases].value_header }}}</h6>
+                                    <p>{{{ threefold.[grid.use_cases].value_content }}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="{{{ threefold.[grid.use_cases].good_img }}}" class="attachment-full size-full"
+                                        alt="{{{ threefold.[grid.use_cases].good_header }}}">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{{ threefold.[grid.use_cases].good_header }}}</h6>
+                                    <p>{{{ threefold.[grid.use_cases].good_content }}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="{{{ threefold.[grid.use_cases].vBacked_img }}}" class="attachment-full size-full"
+                                        alt="{{{ threefold.[grid.use_cases].value_header }}}">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{{ threefold.[grid.use_cases].vBacked_header }}}</h6>
+                                    <p>{{{ threefold.[grid.use_cases].vBacked_content }}}</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img src="{{{ threefold.[grid.use_cases].reliable_img }}}" class="attachment-full size-full"
+                                        alt="{{{ threefold.[grid.use_cases].reliable_header }}}">
+                                </div>
+                                <div class="col-12">
+                                    <h6 class="alt">{{{ threefold.[grid.use_cases].reliable_header }}}</h6>
+                                    <p>{{{ threefold.[grid.use_cases].reliable_content }}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="step1-section">
+            <h2 class="text-blue h2 mt-6 mb-2h">{{{ threefold.[grid.roadmap].header }}}</h2>
+            <section class="home-page--roadmap jarallax">
+                <div class="container">
+                    <div class="row flex-column">
+                        <!-- <div class="col-12">
+            <div class="noia-section-indicator">
+               <svg>
+                 <use xlink:href="https://noia.network/wp-content/themes/noia-rebrand/dist/images/spritemap.svg#sprite-icon-section-indicator"></use>
+               </svg>
+               </div>
+         </div> -->
+                        <!-- <div class="col-12">
+            <h2 class="section-title">Roadmap</h2>
+            </div> -->
+                    </div>
+                    <div class="roadmap-container desktop d-none d-lg-block">
+                        <div class="details-row row">
+                            <div class="details past col">
+                                <div class="date">{{{ threefold.[grid.roadmap].q1_year }}}</div>
+                                <div class="title">
+                                    {{{ threefold.[grid.roadmap].q1_subtitle }}}
+                                </div>
+                            </div>
+                            <div class="details current col">
+                                <div class="date">
+                                    {{{ threefold.[grid.roadmap].q2_year }}}
+                                </div>
+                                <div class="title">
+                                    {{{ threefold.[grid.roadmap].q2_subtitle }}}
+                                </div>
+                            </div>
+                            <div class="details future col">
+                                <div class="date">
+                                    {{{ threefold.[grid.roadmap].q3_year }}}
+                                </div>
+                                <div class="title">
+                                    {{{ threefold.[grid.roadmap].q3_subtitle }}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="timeline-lines row">
+                            <div class="timeline-line past col">
+                                <div></div>
+                            </div>
+                            <div class="timeline-line current col">
+                                <div></div>
+                            </div>
+                            <div class="timeline-line futute col">
+                                <div></div>
+                            </div>
+                            <!-- <div class="timeline-line future col">
+               <div></div>
+            </div> -->
+                            <!-- <div class="timeline-line future col">
+               <div></div>
+            </div> -->
+                        </div>
+                        <div class="timeline-dots row">
+                            <div class="timeline-dot past col">
+                                <span></span>
+                            </div>
+                            <div class="timeline-dot current col">
+                                <span></span>
+                            </div>
+                            <div class="timeline-dot future col">
+                                <span></span>
+                            </div>
+                        </div>
+                        <div class="content-row row">
+                            <div class="content-container past col d-flex flex-column">
+                                <div class="content-block">
+                                    {{{ threefold.[grid.roadmap].q1_text }}}
+                                </div>
+                                <div class="content-block">
+                                    {{{ threefold.[grid.roadmap].q1_text2 }}}
+                                </div>
+                            </div>
+                            <div class="content-container current col d-flex flex-column">
+                                <div class="content-block">
+                                    {{{ threefold.[grid.roadmap].q2_text }}}
+                                </div>
+                                <div class="content-block">
+                                    {{{ threefold.[grid.roadmap].q2_text2 }}}
+                                </div>
+                            </div>
+                            <div class="content-container future col d-flex flex-column">
+                                <div class="content-block">
+                                    {{{ threefold.[grid.roadmap].q3_text }}}
+                                </div>
+                                <div class="content-block">
+                                    {{{ threefold.[grid.roadmap].q3_text2 }}}
+                                </div>
+                            </div>
+                            <!-- <div class="content-container future col d-flex flex-column">
+               <div class="content-block">
+                  {{{ threefold.[grid.roadmap].q4_text }}}
+               </div>
+            </div>
+            <div class="content-container future col d-flex flex-column">
+               <div class="content-block">
+                  {{{ threefold.[grid.roadmap].q5_text }}}
+               </div>
+            </div> -->
+                        </div>
+                    </div>
+                    <div class="roadmap-container mobile d-block d-lg-none">
+                        <div class="roadmap-block past d-flex flex-column">
+                            <div class="timeline-dot"></div>
+                            <div class="date">
+                                {{{ threefold.[grid.roadmap].q1_year }}}
+                            </div>
+                            <div class="title">
+                                {{{ threefold.[grid.roadmap].q1_subtitle }}}
+                            </div>
+                            <div class="content-container row">
+                                <div class="content-block col-12 col-md-3">
+                                    {{{ threefold.[grid.roadmap].q1_text }}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roadmap-block current d-flex flex-column">
+                            <div class="timeline-dot"></div>
+                            <div class="date">
+                                {{{ threefold.[grid.roadmap].q2_year }}}
+                            </div>
+                            <div class="title">
+                                {{{ threefold.[grid.roadmap].q2_subtitle }}}
+                            </div>
+                            <div class="content-container row">
+                                <div class="content-block col-12 col-md-3">
+                                    {{{ threefold.[grid.roadmap].q2_text }}}
+                                </div>
+                            </div>
+                        </div>
+                        <div class="roadmap-block future d-flex flex-column">
+                            <div class="timeline-dot"></div>
+                            <div class="date">
+                                {{{ threefold.[grid.roadmap].q3_year }}}
+                            </div>
+                            <div class="title">
+                                {{{ threefold.[grid.roadmap].q3_subtitle }}}
+                            </div>
+                            <div class="content-container row">
+                                <div class="content-block col-12 col-md-3">
+                                    {{{ threefold.[grid.roadmap].q3_text }}}
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="roadmap-block future d-flex flex-column">
+            <div class="timeline-dot"></div>
+            <div class="date">
+               {{{ threefold.[grid.roadmap].q4_year }}}
+            </div>
+            <div class="title">
+               {{{ threefold.[grid.roadmap].q4_subtitle }}}
+            </div>
+            <div class="content-container row">
+               <div class="content-block col-12 col-md-3">
+                  {{{ threefold.[grid.roadmap].q4_text }}}
+               </div>
+            </div>
+         </div> -->
+                        <!-- <div class="roadmap-block future d-flex flex-column">
+            <div class="timeline-dot"></div>
+            <div class="date">
+               {{{ threefold.[grid.roadmap].q5_year }}}
+            </div>
+            <div class="title">
+               {{{ threefold.[grid.roadmap].q5_subtitle }}}
+            </div>
+            <div class="content-container row">
+               <div class="content-block col-12 col-md-3">
+                  {{{ threefold.[grid.roadmap].q5_text }}}
+               </div>
+            </div>
+         </div> -->
+                    </div>
+                </div>
+                <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; pointer-events: none; z-index: -100;">
+                </div>
+            </section>
+        </div>
+        <div class="step1-section">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{{ threefold.[grid.calltoaction].header }}}</h1>
+                <p>{{{ threefold.[grid.calltoaction].sub_header }}}</p>
+                <div class="page-description">{{{ threefold.[grid.calltoaction].content }}}</div>
+                <a href="{{{ threefold.[grid.calltoaction].btn_link }}}" class="btn btn-block btn-sm-inline btn-green"
+                    target="_blank">{{{
+                    threefold.[grid.calltoaction].btn_txt
+                    }}}</a>
+                <a data-toggle="modal" href="#modal-grid-movie" class="btn btn-block btn-sm-inline btn-blue">{{{
+                    threefold.[grid.calltoaction].btn_txt_video }}}</a>
+            </div>
+        </div>
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{{ threefold.[grid.whatarefarmers].header }}}</h1>
+                <p>{{{ threefold.[grid.whatarefarmers].sub_header }}}</p>
+                <div class="page-description">{{{ threefold.[grid.whatarefarmers].content }}}</div>
+            </div>
+        </div>
+        <div class="earn-tokens-section">
+            <div class="container-wide">
+                <div class="w-row">
+                    <div class="w-col w-col-8 w-col-stack">
+                        <h2>
+                            <strong>{{{ threefold.[grid.earn_tokens].header }}}</strong>
+                            <span>
+                                <strong class="em-supscript b-em">{{{ threefold.[grid.earn_tokens].supscript }}}</strong>
+                            </span>
+                        </h2>
+                    </div>
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-4 w-col-stack"></div>
+                </div>
+                <div class="row-5 w-row">
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+                    <div class="earn-tokens-col-md w-col w-col-5 w-col-medium-5 w-col-small-small-stack">
+                        <p class="num-p">1</p>
+                        <h3 class="step-title f-title c-blue">{{{ threefold.[grid.earn_tokens].stWay }}}</h3>
+                        <p class="intro-p-dark">{{{ threefold.[grid.earn_tokens].stWay_header }}}</p>
+                        {{{ threefold.[grid.earn_tokens].stWay_desc1 }}}
+                        {{{ threefold.[grid.earn_tokens].stWay_desc2 }}}
+                    </div>
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+                    <div class="earn-tokens-col-md w-col w-col-4 w-col-medium-4 w-col-small-small-stack">
+                        <p class="num-p">2</p>
+                        <h3 class="step-title f-title c-blue">{{{ threefold.[grid.earn_tokens].secWay }}}</h3>
+                        <p class="intro-p-dark">{{{ threefold.[grid.earn_tokens].secWay_header }}}</p>
+                        {{{ threefold.[grid.earn_tokens].secWay_desc }}}
+                        <h3 class="text-blue">{{{ threefold.[grid.earn_tokens].TF_dir }}}</h3>
+                        <!-- <div class="list-item-w">
+                <p>{{{ threefold.[grid.earn_tokens].TF_dir_desc }}}</p>
+                <div class="list-item-l"></div>
+            </div> -->
+                        <!-- <div class="list-item-w">
+                {{{ threefold.[grid.earn_tokens].TF_dir_desc2 }}}
+                <div class="list-item-l"></div>
+            </div> -->
+                        <!-- <div class="list-item-w">
+                <p>{{{ threefold.[grid.earn_tokens].TF_dir_desc3 }}}</p>
+                <div class="list-item-l"></div>
+            </div> -->
+                        <p>{{{ threefold.[grid.earn_tokens].TF_dir_desc4 }}}</p>
+                    </div>
+                    <div class="w-hidden-medium w-hidden-small w-hidden-tiny w-col w-col-1 w-col-medium-1 w-col-small-small-stack"></div>
+                </div>
+                <img src="{{{ threefold.[grid.earn_tokens].img }}}" class="token-bg w-hidden-tiny">
+            </div>
+        </div>
+        <div id="modal-grid-movie" class="modal modal-lightbox fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="video-wrapper">
+                            <iframe width="940" height="529" src="{{{ threefold.[grid.video].link }}}" frameborder="0" allow="autoplay; encrypted-media"
+                                allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+<div class="layout-content">
+    <div class="my-6 mt-sm-10">
+        <div class="layout-section">
+            <div class="layout-container">
+                <h2 class="mt-0">{{{ threefold.[tech.coretech].mainHeader }}}</h2>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{{ threefold.[tech.coretech].os_img }}}" class="attachment-full size-full"
+                                    alt="{{{ threefold.[tech.coretech].os_header }}}">
+                            </div>
+                            <div class="col-12">
+                                <a href="{{{ threefold.[tech.coretech].os_header_link }}}" target="_blank">
+                                    <h6 class="alt">{{{ threefold.[tech.coretech].os_header }}}</h6>
+                                </a>
+                                <p>{{{ threefold.[tech.coretech].os_content }}}</p>
+                                <!-- <p style="font-weight: 900;">Zero Robot</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{{ threefold.[tech.coretech].robot_img }}}" class="attachment-full size-full"
+                                    alt="{{{ threefold.[tech.coretech].robot_header }}}">
+                            </div>
+                            <div class="col-12">
+                                <a href="{{{ threefold.[tech.coretech].robot_header_link }}}" target="_blank">
+                                    <h6 class="alt">{{{ threefold.[tech.coretech].robot_header }}}</h6>
+                                </a>
+                                <p>{{{ threefold.[tech.coretech].robot_content }}}</p>
+                                <!-- <a href="https://github.com/threefoldfoundation/tfchain"> the Zero Chain</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-3 offset-xl-1 my-1 my-md-2 my-xl-3">
+                        <div class="row">
+                            <div class="col-6">
+                                <img src="{{{ threefold.[tech.coretech].chain_img }}}" class="attachment-full size-full"
+                                    alt="{{{ threefold.[tech.coretech].chain_header }}}">
+                            </div>
+                            <div class="col-12">
+                                <a href="{{{ threefold.[tech.coretech].chain_header_link }}}" target="_blank">
+                                    <h6 class="alt">{{{ threefold.[tech.coretech].chain_header }}}</h6>
+                                </a>
+                                <p>{{{ threefold.[tech.coretech].chain_content }}}</p>
+                                <!-- <p style="font-weight: 900;">Zero OS</p> -->
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="layout-container">
+        <div class="my-6 mt-sm-10">
+            <div class="layout-container">
+                <h1 class="text-blue h1 mb-3">{{{ threefold.[tech.techbenefit].header }}}</h1>
+                <div class="page-description mb-3">{{{ threefold.[tech.techbenefit].content }}}</div>
+            </div>
+        </div>
+        <div class="my-6 mt-sm-10">
+            <div class="layout-inner-content">
+                <h1 class="text-blue h1 mb-3">{{{ threefold.[tech.calltoaction].header }}}</h1>
+                <p>{{{ threefold.[tech.calltoaction].sub_header }}}</p>
+                <div class="page-description">{{{ threefold.[tech.calltoaction].content }}}</div>
+                <a href="{{{ threefold.[tech.calltoaction].btn_link }}}" class="btn btn-block btn-sm-inline btn-green">{{{
+                    threefold.[tech.calltoaction].btn_txt }}}</a>
+            </div>
+        </div>
+    </div>
+</div>

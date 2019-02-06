@@ -1,0 +1,30 @@
++++
+# Don't Remove Title!
+title = "states"
+
+header = "ThreeFold Stats and Explorers"
+
+token_price = "Token Price:"
+priceVal = "$0.12"
+
+token_capitalization = "Token Capitalization:"
+
+trading_volume = "Daily Trading Volume:"
+
+# Threefold Radar
+TFRadar_img = "/static/threefold/svg/ic-radar.svg"
+TFRadar = "ThreeFold Radar"
+TfRadar_link = "https://threefoldradar.info/"
+
+# Explorer
+explorer_img = "/static/threefold/svg/ic-explorer.svg"
+explorer = "Explorer"
+explorer_link = "https://explorer.threefoldtoken.com/"
+
+# Explorer 2
+explorer2_img = "/static/threefold/svg/ic-explorer-2.svg"
+explorer2 = "Explorer 2"
+explorer2_link = "https://explorer2.threefoldtoken.com/"
+
+weight = 6
++++
